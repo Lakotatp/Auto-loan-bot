@@ -1,5 +1,0 @@
-Requirements.txt
-
-flask
-langflow
-anthropic
