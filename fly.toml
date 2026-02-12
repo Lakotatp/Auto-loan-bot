@@ -1,0 +1,7 @@
+app = "auto-loan-bot"
+primary_region = "ord"  # or your closest PORT = "7860"
+
+[[services [services.ports]
+    handlers = port = 443 grace_period = "60s"
+    interval = "10s"
+    timeout = "5s"
